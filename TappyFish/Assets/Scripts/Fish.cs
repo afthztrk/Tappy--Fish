@@ -41,9 +41,9 @@ public class Fish : MonoBehaviour
     {
         if (_rb.velocity.y > 0)
         {
-            if (angle <= maxAngle)
+            if (angle <= maxAngle)         // Bu kod, bir fiziksel nesnenin dikey hýzýna baðlý olarak bir açýyý güncelleyen bir kontrol yapýsý içerir
             {
-                angle = angle + 4;
+                angle = angle + 4;             
             }
         }
         else if (_rb.velocity.y < -1.2)
