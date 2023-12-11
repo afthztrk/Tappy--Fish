@@ -10,9 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 6418397972158497266}
   - component: {fileID: 6418397972158497265}
+  - component: {fileID: 3341692422329264293}
   m_Layer: 0
   m_Name: Obstacle
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -47,7 +48,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 1.8303223, y: 1.1714065}
+  m_Offset: {x: 1.7285638, y: 1.2084095}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -58,8 +59,21 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.0627537, y: 4.263203}
+  m_Size: {x: 0.78523064, y: 4.337209}
   m_EdgeRadius: 0
+--- !u!114 &3341692422329264293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6418397972158497264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e991ed54472cc3847b39bfbe0040ab5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 3
 --- !u!1 &6418397973106575575
 GameObject:
   m_ObjectHideFlags: 0
@@ -74,7 +88,7 @@ GameObject:
   - component: {fileID: 6418397973106575528}
   m_Layer: 0
   m_Name: Obstacle_1
-  m_TagString: Untagged
+  m_TagString: Column
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -212,7 +226,7 @@ GameObject:
   - component: {fileID: 6418397973351095077}
   m_Layer: 0
   m_Name: Obstacle_2
-  m_TagString: Untagged
+  m_TagString: Column
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
